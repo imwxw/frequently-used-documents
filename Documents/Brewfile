@@ -1,0 +1,226 @@
+tap "adoptopenjdk/openjdk"
+tap "beeftornado/rmtree"
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/cask-drivers"
+tap "homebrew/cask-fonts"
+tap "homebrew/cask-versions"
+tap "homebrew/core"
+tap "homebrew/services"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.10"
+# Automate deployment, configuration, and upgrading
+brew "ansible"
+# Tool for reverse engineering 3rd party, closed, binary Android apps
+brew "apktool"
+# Terminal utility for Baidu Network Disk
+brew "baidupcs-go"
+# Cross-platform strong encryption and not detectable proxy. Zero-Configuration
+brew "brook"
+# Terminal emulator for the X Window System
+brew "xterm"
+# Implementation of the Chez Scheme language
+brew "chezscheme"
+# Cross-platform make
+brew "cmake"
+# Utilities for .cue and .toc files
+brew "cuetools"
+# Tools to work with Android .dex and Java .class files
+brew "dex2jar"
+# Tool for exploring each layer in a docker image
+brew "dive"
+# GNU Emacs text editor
+brew "emacs"
+# Fully featured Firefox Send client
+brew "ffsend"
+# Client app of fast reverse proxy to expose a local server to the internet
+brew "frpc", restart_service: true
+# Distributed revision control system
+brew "git"
+# Open source programming language to build simple/reliable/efficient software
+brew "go"
+# Open-source build automation tool based on the Groovy and Kotlin DSL
+brew "gradle"
+# Framework for layout and rendering of i18n text
+brew "pango"
+# Graph visualization software from AT&T and Bell Labs
+brew "graphviz"
+# Tools and libraries to manipulate images in many formats
+brew "imagemagick"
+# Update of iperf: measures TCP, UDP, and SCTP bandwidth
+brew "iperf3"
+# Manage your Java environment
+brew "jenv"
+# Load testing and performance measurement application
+brew "jmeter"
+# Clone of ls with colorful output, file type icons, and more
+brew "lsd"
+# Powerful, lightweight programming language
+brew "lua"
+# Package manager for the Lua programming language
+brew "luarocks"
+# Fast and simple video downloader
+brew "lux"
+# Mac App Store command-line interface
+brew "mas"
+# Java-based project management
+brew "maven"
+# NCurses Disk Usage
+brew "ncdu"
+# Fast, highly customisable system info script
+brew "neofetch"
+# Ambitious Vim-fork focused on extensibility and agility
+brew "neovim"
+# Port scanning utility for large networks
+brew "nmap"
+# Platform built on V8 to build network applications
+brew "node"
+# Development kit for the Java programming language
+brew "openjdk@17"
+# Swiss-army knife of markup format conversion
+brew "pandoc"
+# Open source hot backup tool for InnoDB and XtraDB databases
+brew "percona-xtrabackup"
+# Java class file shrinker, optimizer, and obfuscator
+brew "proguard"
+# Show ps output as a tree
+brew "pstree"
+# Terminal multiplexer with VT100/ANSI terminal emulation
+brew "screen"
+# Generate ASCII art with terminal, shell, and OS info
+brew "screenfetch"
+# Low-level access to audio, keyboard, mouse, joystick, and graphics
+brew "sdl2"
+# Library for loading images as SDL surfaces and textures
+brew "sdl2_image"
+# Sample multi-channel audio mixer library
+brew "sdl2_mixer"
+# Library for using TrueType fonts in SDL applications
+brew "sdl2_ttf"
+# Multi-purpose tool for manipulating and analyzing WAV files
+brew "shntool"
+# HTTP regression testing and benchmarking utility
+brew "siege"
+# Prints a steam locomotive if you type sl instead of ls
+brew "sl"
+# SMART hard drive monitoring
+brew "smartmontools"
+# Command-line interface for https://speedtest.net bandwidth tests
+brew "speedtest-cli"
+# Cross-shell prompt for astronauts
+brew "starship"
+# Version control system designed to be a better CVS
+brew "subversion"
+# TCP connect to the given IP/port combo
+brew "tcping"
+# User interface to the TELNET protocol
+brew "telnet"
+# Terminal multiplexer
+brew "tmux"
+# CLI tool that moves files or folder to the trash
+brew "trash"
+# Display directories as trees (with optional color/HTML output)
+brew "tree"
+# Internet file retriever
+brew "wget"
+# HTTP benchmarking tool
+brew "wrk"
+# AdoptOpenJDK OpenJDK (Java) Development Kit
+cask "adoptopenjdk11"
+# Prebuilt OpenJDK binaries
+cask "adoptopenjdk8"
+# Professional image editing software
+cask "affinity-photo"
+# Enable Windows-like alt-tab
+cask "alt-tab"
+# Android SDK component
+cask "android-platform-tools"
+# Memory training application
+cask "anki"
+# Redis desktop manager
+cask "another-redis-desktop-manager"
+# Automated testing of webapps for Google Chrome
+cask "chromedriver"
+# App to build and share containerized applications and microservices
+cask "docker"
+# Draw.io is free online diagram software
+cask "drawio"
+# European dictionary
+cask "eudic"
+# Web browser
+cask "firefox-esr"
+cask "font-alegreya"
+cask "font-alegreya-sans"
+cask "font-alegreya-sans-sc"
+cask "font-fira-code"
+cask "font-hack-nerd-font"
+# CJK programming font based on Iosevka and Source Han Sans
+cask "font-sarasa-gothic"
+cask "font-source-sans-pro"
+cask "font-source-serif-pro"
+# Desktop client for GitHub repositories
+cask "github"
+# Web browser
+cask "google-chrome"
+# Free and open-source media player
+cask "iina"
+# Terminal emulator as alternative to Apple's Terminal app
+cask "iterm2"
+# JetBrains tools manager
+cask "jetbrains-toolbox"
+# File archiver
+cask "keka"
+# Free and open-source media player
+cask "kodi"
+# Software for Logitech devices
+cask "logitech-options"
+# Simple and elegant markdown editor
+cask "mark-text"
+# Sandbox construction video game
+cask "minecraft"
+# Open-source download manager
+cask "motrix"
+# App to write, plan, collaborate, and get organized
+cask "notion"
+# Collaboration platform for API development
+cask "postman"
+cask "shadowsocksx-ng"
+# Video game digital distribution service
+cask "steam"
+# Remote desktop control and monitoring tool
+cask "sunloginclient"
+# Cloud video conferencing
+cask "tencent-meeting"
+# VPN and WiFi proxy
+cask "thunder"
+# Plug-in productivity tool set
+cask "utools"
+# GUI for v2ray-core
+cask "v2rayx"
+# Video editor
+cask "videofusion"
+# Open-source code editor
+cask "visual-studio-code"
+# All-in-One Java Troubleshooting Tool
+cask "visualvm"
+# Create, manage, and run virtual machines
+cask "vmware-fusion"
+# Wechat DevTools for Official Account and Mini Program development
+cask "wechatwebdevtools"
+# Network protocol analyzer
+cask "wireshark"
+# Mindmap and brainstorming app
+cask "xmind-zen"
+mas "GarageBand", id: 682658836
+mas "iMovie", id: 408981434
+mas "Keynote", id: 409183694
+mas "Microsoft Excel", id: 462058435
+mas "Microsoft OneNote", id: 784801555
+mas "Microsoft Outlook", id: 985367838
+mas "Microsoft PowerPoint", id: 462062816
+mas "Microsoft Remote Desktop", id: 1295203466
+mas "Microsoft Word", id: 462054704
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
+mas "Reeder", id: 1449412482
+mas "WeChat", id: 836500024
