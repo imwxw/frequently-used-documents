@@ -1,2 +1,2 @@
-# Frequently-Used-Documents
-Frequently Used Documents
+# Frequently Used Documents
+Frequently used documents
