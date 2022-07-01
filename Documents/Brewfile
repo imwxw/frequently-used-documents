@@ -13,6 +13,8 @@ brew "python@3.10"
 brew "ansible"
 # Tool for reverse engineering 3rd party, closed, binary Android apps
 brew "apktool"
+# Extendable version manager with support for Ruby, Node.js, Erlang & more
+brew "asdf"
 # Terminal utility for Baidu Network Disk
 brew "baidupcs-go"
 # Cross-platform strong encryption and not detectable proxy. Zero-Configuration
@@ -125,6 +127,8 @@ brew "tree"
 brew "wget"
 # HTTP benchmarking tool
 brew "wrk"
+# JavaScript package manager
+brew "yarn"
 # AdoptOpenJDK OpenJDK (Java) Development Kit
 cask "adoptopenjdk11"
 # Prebuilt OpenJDK binaries
@@ -180,8 +184,6 @@ cask "mark-text"
 cask "minecraft"
 # Open-source download manager
 cask "motrix"
-# App to write, plan, collaborate, and get organized
-cask "notion"
 # Collaboration platform for API development
 cask "postman"
 cask "shadowsocksx-ng"
@@ -209,10 +211,7 @@ cask "vmware-fusion"
 cask "wechatwebdevtools"
 # Network protocol analyzer
 cask "wireshark"
-# Mindmap and brainstorming app
 cask "xmind-zen"
-mas "GarageBand", id: 682658836
-mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694
 mas "Microsoft Excel", id: 462058435
 mas "Microsoft OneNote", id: 784801555
